@@ -4,7 +4,7 @@ import WEATHER from "../assets/weather.png";
 
 function Projects() {
   return (
-    <div className="flex gap-3 m-5">
+    <div className="grid gap-3 m-5 md:grid-cols-2 lg:grid-cols-3">
       <ProjectCard
         image={CHATBOT}
         title="ChatBot Application"
