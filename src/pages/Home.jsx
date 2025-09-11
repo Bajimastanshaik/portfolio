@@ -77,7 +77,7 @@ function Home() {
           </p>
 
           <button className="px-5 py-2 rounded-3xl mt-4 bg-blue-500 text-white font-medium shadow-lg shadow-blue-500/50 hover:bg-blue-600 transition">
-            <a href="Bajimastanshaik.pdf" download>
+            <a href="/Bajimastanshaik.pdf" download>
               Download My Resume
             </a>
           </button>
