@@ -1,4 +1,4 @@
-import CHATBOT from "../assets/CHATBOT.png";
+import CHATBOT from "../assets/chatbot.png";
 import ProjectCard from "../components/ProjectCard";
 import WEATHER from "../assets/weather.png";
 
