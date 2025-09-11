@@ -17,7 +17,7 @@ function Navbar() {
         </p>
       </div>
 
-      {/* Desktop Nav */}
+      
       <div className="hidden md:flex items-center gap-10 mr-10">
         <NavLink
           to="/"
@@ -65,14 +65,14 @@ function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Menu Button */}
+      
       <div className="md:hidden">
         <button onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? <X /> : <Menu />}
         </button>
       </div>
 
-      {/* Mobile Nav */}
+      
       {isOpen && (
         <div className="absolute top-16 left-0 w-full bg-white dark:bg-gray-900 shadow-md md:hidden flex flex-col items-start p-5 space-y-4 z-50">
           <Link

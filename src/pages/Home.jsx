@@ -6,7 +6,7 @@ import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 function Home() {
   return (
     <div className="flex flex-col md:flex-row items-center justify-between gap-10 px-5 sm:px-10 md:px-16 lg:px-15 mt-16">
-      {/* Left Content */}
+      
       <div className="flex flex-col gap-5 w-full md:w-1/2">
         <p className="text-2xl sm:text-3xl md:text-4xl font-extrabold">
           Hello, I'm
@@ -47,7 +47,7 @@ function Home() {
           </p>
         </div>
 
-        {/* Resume + Links */}
+        
         <div className="mt-6 space-y-4">
           <p>
             Github profile:
@@ -84,7 +84,7 @@ function Home() {
         </div>
       </div>
 
-      {/* Right Content (Animation) */}
+      
       <div className="flex justify-center items-center w-full md:w-1/2">
         <DotLottieReact
           className="w-60 sm:w-80 md:w-[400px] lg:w-[500px]"

@@ -4,10 +4,10 @@ import { Github, ExternalLink } from "lucide-react";
 function ProjectCard({ image, title, description, tech, github, demo }) {
   return (
     <div className="bg-white/5 dark:bg-gray-900 border border-white/10 rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden flex flex-col">
-      {/* Image */}
-      <img src={image} alt={title} className="h-48 w-full object-cover" />
+      
+      <img src={image} alt={title} className="h-48 w-full object-contain" />
 
-      {/* Content */}
+
       <div className="p-5 flex flex-col flex-1">
         <h3 className="text-xl font-bold text-gray-900 dark:text-white">
           {title}
@@ -16,7 +16,7 @@ function ProjectCard({ image, title, description, tech, github, demo }) {
           {description}
         </p>
 
-        {/* Tech stack */}
+
         <div className="flex flex-wrap gap-2 mt-3">
           {tech.map((t, i) => (
             <span
@@ -28,7 +28,7 @@ function ProjectCard({ image, title, description, tech, github, demo }) {
           ))}
         </div>
 
-        {/* Links */}
+
         <div className="flex gap-4 mt-5">
           {github && (
             <a
