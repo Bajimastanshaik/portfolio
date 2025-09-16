@@ -1,10 +1,11 @@
 import CHATBOT from "../assets/chatbot.png";
 import ProjectCard from "../components/ProjectCard";
 import WEATHER from "../assets/weather.png";
+import TODO from "../assets/to-do.png";
 
 function Projects() {
   return (
-    <div className="grid gap-3 m-5 md:grid-cols-2 lg:grid-cols-3">
+    <div className="grid gap-3 m-5 mb-2 md:grid-cols-2 lg:grid-cols-3">
       <ProjectCard
         image={CHATBOT}
         title="ChatBot Application"
@@ -17,34 +18,19 @@ function Projects() {
         image={WEATHER}
         title="Weather App"
         description="A sleek weather app built with React, Tailwind CSS, and a weather API to show real-time conditions in a clean and responsive design."
-        tech={["React", "Tailwind", "Framer Motion"]}
+        tech={["React", "Tailwind", "API"]}
         github="https://github.com/Bajimastanshaik/Weather_app"
         demo="https://weather-app-37.vercel.app/"
       />
       <ProjectCard
-        image="https://source.unsplash.com/random/800x600?website"
-        title="Portfolio Website"
-        description="A modern and responsive portfolio website built with React, Tailwind CSS, and Framer Motion."
-        tech={["React", "Tailwind", "Framer Motion"]}
-        github="https://github.com/yourusername/portfolio"
-        demo="https://yourportfolio.com"
+        image={TODO}
+        title="To-Do List"
+        description="A clean and simple to-do list app built with React and Tailwind. You can add tasks, check them off when done, filter between active and completed, and keep your day organized with ease."
+        tech={["React", "Tailwind", "JAVASCRIPT"]}
+        github="https://github.com/Bajimastanshaik/To-Do-list"
+        demo="https://to-do-list--90.vercel.app/"
       />
-      <ProjectCard
-        image="https://source.unsplash.com/random/800x600?website"
-        title="Portfolio Website"
-        description="A modern and responsive portfolio website built with React, Tailwind CSS, and Framer Motion."
-        tech={["React", "Tailwind", "Framer Motion"]}
-        github="https://github.com/yourusername/portfolio"
-        demo="https://yourportfolio.com"
-      />
-      <ProjectCard
-        image="https://source.unsplash.com/random/800x600?website"
-        title="Portfolio Website"
-        description="A modern and responsive portfolio website built with React, Tailwind CSS, and Framer Motion."
-        tech={["React", "Tailwind", "Framer Motion"]}
-        github="https://github.com/yourusername/portfolio"
-        demo="https://yourportfolio.com"
-      />
+    
     </div>
   );
 }
